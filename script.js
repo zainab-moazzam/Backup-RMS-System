@@ -5,3 +5,26 @@ menu.onclick = () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 }
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
+}
+
+let search = document.querySelector('#search-icon');
+let searchClose = document.querySelector('#close');
+
+search.onclick =() =>{
+    document.querySelector('#search-form').classList.toggle('active');
+}
+
+searchClose.onclick =() =>{
+    document.querySelector('#search-form').classList.remove('active');
+}
+// document.querySelector('#search-icon').onclick = () =>{
+//     document.querySelector('#search-form').classList.toggle('active');
+// }
+
+// document.querySelector('#close').onclick = () =>{
+//     document.querySelector('#search-form').classList.remove('active');
+// }
