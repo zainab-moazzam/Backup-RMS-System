@@ -21,15 +21,15 @@ search.onclick =() =>{
 searchClose.onclick =() =>{
     document.querySelector('#search-form').classList.remove('active');
 }
-document.querySelector('#search-icon').onclick = () =>{
-    document.querySelector('#search-form').classList.toggle('active');
-}
+// document.querySelector('#search-icon').onclick = () =>{
+//     document.querySelector('#search-form').classList.toggle('active');
+// }
 
-document.querySelector('#close').onclick = () =>{
-    document.querySelector('#search-form').classList.remove('active');
-}
+// document.querySelector('#close').onclick = () =>{
+//     document.querySelector('#search-form').classList.remove('active');
+// }
 
-var swiper = new Swiper('.home-slider', {
+var swiper = new Swiper(".home-slider", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
@@ -37,7 +37,7 @@ var swiper = new Swiper('.home-slider', {
         disableOnInteraction: false,
     },
     pagination: {
-        el: '.swiper-pagination',
+        el: ".swiper-pagination",
         clickable: true,
     },
     loop:true,

@@ -59,6 +59,7 @@ header{
     z-index: 1000;
     box-shadow: var(--box-shadow);
 }
+
 header .logo{
     color:var(--black);
     font-size: 2.5rem;
@@ -188,6 +189,10 @@ header .icons #menu-bars{
     line-height: 1.5;
 }
 
+.swiper-pagination-bullet-active{
+    background: var(--green);
+}
+
 
 
 
@@ -214,6 +219,10 @@ header .icons #menu-bars{
     }
     header{
         padding: 1rem 2rem;
+    } 
+
+    section{
+        padding:2rem;
     } 
 }
 @media (max-width:768px){
@@ -244,5 +253,8 @@ header .navbar a{
 #search-form #search-box{
     width: 90%;
     margin: 0 1rem;
+}
+.home .home-slider .slider .content h3{
+    font-size: 5rem;
 }
 }
