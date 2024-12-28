@@ -43,6 +43,10 @@ section:nth-child(even){
     cursor: pointer;
     padding: .8rem 3rem;
 }
+.btn:hover{
+    background: var(--green);
+    letter-spacing: .1rem;
+}
 
 header{
     position: fixed;

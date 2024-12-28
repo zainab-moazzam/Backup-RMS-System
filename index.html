@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--title of our website page-->
     <title>ZAZ Restaurant Management System</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <!--link of font awesome for icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- our personalizes stylesheet -->
@@ -41,11 +43,11 @@
     <i class="fas fa-times" id="close"></i>
 </form>
 
-<!-- srarch form start -->
-  <section class="home" id="home">
-    <div class="home-slider">
-        <div class="wrapper">
-            <div class="slider">
+<!-- home form start -->
+<section class="home" id="home">
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slider">
                 <div class="content">
                     <span>our special dish</span>
                     <h3>Burger deal</h3>
@@ -57,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="slider">
+            <div class="swiper-slide slider">
                 <div class="content">
                     <span>our special dish</span>
                     <h3>Pizza</h3>
@@ -69,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="slider">
+            <div class="swiper-slide slider">
                 <div class="content">
                     <span>our special dish</span>
                     <h3>spicy noodles</h3>
@@ -80,14 +82,12 @@
                     <img src="images/3.png" alt="">
                 </div>
             </div>
-
-
-
         </div>
+        <div class="swiper-pagination"></div>
     </div>
 
-  </section>
-<!-- srarch form end -->
+</section>
+<!-- home form end -->
 
 
 
@@ -120,9 +120,9 @@
 
 
 
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
-
-    <!-- our customized js link -->
-     <script src="script.js"></script>
+<!-- our customized js link -->
+<script src="script.js"></script>
 </body>
 </html>
