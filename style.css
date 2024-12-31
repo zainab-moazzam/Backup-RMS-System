@@ -5,6 +5,10 @@
     --black: #192a56;
     --light-color:#666;
     --box-shadow:0 0.5rem 1.5rem rgba(0,0,0,.1);
+    --red: #973131;
+    --orange: #E0A75E;
+    --yellow: #F9D689;
+    --light-yellow: #F5E7B2;
 }
 
 *{
@@ -528,7 +532,8 @@ order form .btn{
 }
 /* footer style section style ends  */
 /* loader style section  */
-.loader-container {
+/* .loader-container {
+    opacity: 50%;
     position: fixed;
     top: 0; 
     left: 0;
@@ -540,17 +545,20 @@ order form .btn{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    transition: opacity 1s ease, top 1s ease; /* Transition for opacity and top */
-}
+    transition: opacity 1s ease, top 1s ease; 
+} 
 
 .loader-container img {
     width: 35rem;
 }
 
 .loader-container .fade-out {
-    top: 110%;   /* Moves loader off-screen */
-    opacity: 0;  /* Fades out the loader */
-}
+    top: -110%;   
+    opacity: 0;
+    display: none;
+} */
+/* loader style section  ends */
+
 
 /* media queries */
 @media(max-width:991px){
