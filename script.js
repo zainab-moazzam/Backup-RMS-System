@@ -89,13 +89,13 @@ var swiper = new Swiper(".review-slider", {
 //     setInterval(loader, 3000);
 // }
 // window.onload = fadeOut;
-function loader() {
-    const loaderContainer = document.querySelector('.loader-container');
-    loaderContainer.classList.add('fade-out');
-}
+// function loader() {
+//     const loaderContainer = document.querySelector('.loader-container');
+//     loaderContainer.classList.add('fade-out');
+// }
 
-function fadeOut() {
-    setTimeout(loader, 3000); // Wait 3 seconds before calling loader function
-}
+// function fadeOut() {
+//     setTimeout(loader, 3000); // Wait 3 seconds before calling loader function
+// }
 
-window.onload = fadeOut;  // Call fadeOut once the page has finished loading
+// window.onload = fadeOut;  // Call fadeOut once the page has finished loading
