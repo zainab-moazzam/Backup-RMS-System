@@ -104,20 +104,4 @@ var swiper = new Swiper(".review-slider", {
 
 // window.onload = fadeOut;  // Call fadeOut once the page has finished loading
 // window.onload = fadeOut;  // Call fadeOut once the page has finished loading
-// Select all "Add to Cart" buttons
-const addToCartButtons = document.querySelectorAll('.btn');
-
-// Select the cart counter element
-const cartCounter = document.getElementById('cart-counter');
-
-// Initialize counter
-let cartCount = 0;
-
-// Add click event listeners to all "Add to Cart" buttons
-addToCartButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        cartCount++; // Increment the counter
-        cartCounter.textContent = cartCount; // Update the counter display
-    });
-});
 
